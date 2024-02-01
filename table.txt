@@ -1,0 +1,10 @@
+CREATE TABLE Records (
+    `ID` INT AUTO_INCREMENT PRIMARY KEY,
+    `Vehicle ID` VARCHAR(50),
+    `State` VARCHAR(50),
+    `Repair` VARCHAR(100),
+    `Reason` VARCHAR(100),
+    `YEAR` INT,
+    `Make` VARCHAR(50),
+    `Body Type` VARCHAR(100)
+);
